@@ -1,4 +1,12 @@
 /* compile with `gcc -Wall -O0 -static -s -o mainarray mainarray.c` */
+
+#ifdef NO_WARNING
+#pragma GCC diagnostic ignored "-Wmain"
+#pragma GCC diagnostic ignored "-Wunknown-pragmas"
+
+#pragma clang diagnostic ignored "-Wmain"
+#endif
+
 const unsigned int main[] = {
 	3850979413, 440,        113408,     2372337664,
 	4149,       3586560,    84869120,   15544,
