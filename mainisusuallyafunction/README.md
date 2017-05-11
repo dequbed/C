@@ -8,6 +8,7 @@ You can make the whole thing compile with no warnings by writing this line:
 ```c
 #pragma GCC diagnostic ignored "-Wmain"
 ```
-Somewhere before the `main` symbol.
+Somewhere before the `main` symbol. (Have a look at the source & Makefile)
 So if you want to submit that kind of code but have requirements that it must not give any compiler warnings....
+
 (thanks to condret)
