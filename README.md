@@ -1,4 +1,4 @@
-# Shit I do with C.
+# Shit I do with C Programming.
 
 I hate C, I really do.
 
